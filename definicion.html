@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definición - Lombricultivos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menuToggle" class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+
+    <div id="sideMenu" class="side-menu">
+        <ul>
+            <li><a href="definicion.html">Definición</a></li>
+            <li><a href="proceso.html">Proceso</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <h1>¿Qué es el Lombricultivo?</h1>
+        <p>El <strong>lombricultivo</strong> es una técnica agrícola y ecológica que consiste en la cría y manejo de lombrices, principalmente la especie <strong>Lumbricus rubellus</strong> o lombriz roja californiana, con el fin de aprovechar su capacidad natural para transformar residuos orgánicos en abono de alta calidad. Este abono, conocido como <strong>humus de lombriz</strong>, es un fertilizante orgánico altamente nutritivo que mejora la estructura del suelo, aumenta su capacidad para retener agua y favorece el crecimiento de las plantas.</p>
+
+        <p>El proceso de lombricultivo no solo se centra en la cría de lombrices, sino también en la gestión adecuada de residuos orgánicos, como restos de alimentos, hojas, cáscaras de frutas y otros desechos biodegradables, que se descomponen y son transformados por las lombrices en materia rica en nutrientes. Este ciclo biológico no solo contribuye a reducir la cantidad de residuos sólidos, sino que también promueve la sostenibilidad y la conservación del medio ambiente.</p>
+
+        <p>Además de su uso como fertilizante natural, el lombricultivo tiene beneficios importantes para la agricultura, ya que favorece la aireación del suelo, mejora su fertilidad, y previene la erosión, lo que lo convierte en una herramienta esencial dentro de la agricultura orgánica y la permacultura.</p>
+
+        <p>El lombricultivo también tiene una faceta educativa, ya que al involucrar a las personas en su práctica, les permite aprender sobre la importancia de la gestión de residuos, el reciclaje y el manejo responsable de los recursos naturales, contribuyendo a la formación de una conciencia ambiental más profunda en la comunidad.</p>
+        <a href="index.html">Volver al Inicio</a>
+    </div>
+
+    <script>
+
+        const menuToggle = document.getElementById('menuToggle');
+        const sideMenu = document.getElementById('sideMenu');
+
+        menuToggle.addEventListener('click', () => {
+            if (sideMenu.style.left === '0px') {
+                sideMenu.style.left = '-250px';
+            } else {
+                sideMenu.style.left = '0px';
+            }
+        });
+    </script>
+
+        <footer class="footer">
+        Instituto Técnico Ambiental 2024
+    </footer>
+
+</body>
+</html>
+
+

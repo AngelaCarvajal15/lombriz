@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lombricultivos - Introducción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menuToggle" class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+
+    <div id="sideMenu" class="side-menu">
+        <ul>
+            <li><a href="definicion.html">Definición</a></li>
+            <li><a href="proceso.html">Proceso</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <h1>Bienvenidos al Mundo del Lombricultivo</h1>
+ <p>En el mundo actual, enfrentamos numerosos retos ambientales que requieren de una acción inmediata y efectiva. La contaminación del suelo, el cambio climático, y la gestión de residuos orgánicos son solo algunos de los problemas más urgentes que necesitamos abordar para garantizar un futuro sostenible para las generaciones venideras. Como parte de nuestra misión educativa en el Instituto Técnico Ambiental, tenemos el compromiso de formar a nuestros estudiantes en prácticas innovadoras, técnicas y sustentables que promuevan un equilibrio entre el desarrollo humano y la preservación del medio ambiente.</p>
+        
+        <p>En este contexto, el <strong>proyecto de lombricultivo</strong> nace como una propuesta viable y ecológica para contribuir a la gestión de residuos orgánicos en nuestra institución, a la vez que promovemos el cuidado del medio ambiente. El lombricultivo consiste en el proceso de cría de lombrices, especialmente de la especie <strong>Lumbricus rubellus</strong> o lombriz roja californiana, que es capaz de transformar residuos orgánicos en un abono natural de alta calidad conocido como <strong>humus de lombriz</strong>. Este abono es utilizado para mejorar la calidad del suelo, aumentar su fertilidad y promover un crecimiento saludable de las plantas, lo que a su vez tiene un impacto positivo en la agricultura y la producción de alimentos.</p>
+        
+        <p>El proyecto busca, en primera instancia, ofrecer una solución efectiva a la problemática de los residuos orgánicos generados diariamente en el instituto. A través de la implementación de lombricultivo, se reducirá significativamente la cantidad de basura orgánica que se envía a los vertederos, contribuyendo a la disminución de la contaminación y generando un recurso valioso para la mejora de nuestros espacios verdes y jardines.</p>
+        
+        <p>Además de su aporte en términos ecológicos, el proyecto tiene un fuerte componente educativo. Durante su desarrollo, los estudiantes del instituto no solo aprenderán sobre la biología y el manejo de las lombrices, sino que también se sensibilizarán sobre la importancia de reducir, reutilizar y reciclar los recursos, adoptando prácticas de compostaje y manejo de residuos de manera consciente y responsable. Así, el lombricultivo se convierte en una herramienta pedagógica que permite integrar los conceptos de sostenibilidad, economía circular y agricultura orgánica en el currículo técnico y ambiental de la institución.</p>
+        
+        <p>El proceso de lombricultivo que implementaremos en el instituto constará de varias fases: la preparación del sustrato adecuado, la cría y cuidado de las lombrices, la recolección del humus, y su posterior uso como fertilizante natural. A lo largo de estas etapas, los estudiantes tendrán la oportunidad de experimentar de manera práctica los principios de la ecología aplicada, la gestión ambiental y la producción de alimentos orgánicos.</p>
+        
+        <p>Es por todo esto que el proyecto de lombricultivo se presenta como una iniciativa que busca no solo la gestión eficiente de los residuos, sino también el fomento de una educación ambiental integral. A través de esta experiencia, los estudiantes no solo se convertirán en expertos en el manejo de un recurso ecológico, sino que también llevarán consigo un mensaje de cuidado y respeto por el medio ambiente, que será el motor para el desarrollo de una sociedad más sostenible.</p>
+    </div>
+
+    <script>
+
+        const menuToggle = document.getElementById('menuToggle');
+        const sideMenu = document.getElementById('sideMenu');
+
+        menuToggle.addEventListener('click', () => {
+            if (sideMenu.style.left === '0px') {
+                sideMenu.style.left = '-250px';
+            } else {
+                sideMenu.style.left = '0px';
+            }
+        });
+    </script>
+
+        <footer class="footer">
+        Instituto Técnico Ambiental 2024
+    </footer>
+
+</body>
+</html>
+

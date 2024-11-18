@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso - Lombricultivos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="menuToggle" class="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+
+    <div id="sideMenu" class="side-menu">
+        <ul>
+            <li><a href="definicion.html">Definición</a></li>
+            <li><a href="proceso.html">Proceso</a></li>
+            <li><a href="integrantes.html">Integrantes</a></li>
+        </ul>
+    </div>
+
+
+    <div class="main-content">
+        <h1>Proceso de Lombricultivo</h1>
+        <li><strong>Preparación del sustrato:</strong>
+                <p>El primer paso en el proceso de lombricultivo es la preparación del sustrato adecuado. Las lombrices necesitan un ambiente húmedo y rico en materia orgánica para alimentarse y reproducirse. El sustrato puede consistir en restos de hojas, cartón, paja, aserrín, y residuos de cocina como cáscaras de frutas, verduras, y restos de café. Es importante que el sustrato esté libre de productos químicos o contaminantes que puedan dañar a las lombrices.</p>
+            </li>
+            
+            <li><strong>Introducción de las lombrices:</strong>
+                <p>Una vez preparado el sustrato, se introducen las lombrices rojas californianas (<strong>Lumbricus rubellus</strong>), que son las más eficaces para la descomposición de materia orgánica. Estas lombrices tienen una gran capacidad de digestión, transformando los residuos en humus de lombriz. Las lombrices deben estar bien distribuidas en el sustrato para que se alimenten de manera eficiente y contribuyan al proceso de descomposición.</p>
+            </li>
+            
+            <li><strong>Alimentación y mantenimiento:</strong>
+                <p>Las lombrices se alimentan de los residuos orgánicos que se les proporcionan, descomponiéndolos mientras pasan por su sistema digestivo. Este proceso genera humus, que es una sustancia rica en nutrientes, muy beneficiosa para las plantas. Durante esta fase, es fundamental mantener las condiciones adecuadas de temperatura (entre 15°C y 25°C) y humedad (alrededor del 60-80%) en el sustrato, para asegurar el bienestar de las lombrices. Además, es importante no sobrealimentarlas para evitar el desbalance del sustrato.</p>
+            </li>
+            
+            <li><strong>Recolección del humus:</strong>
+                <p>Después de algunas semanas o meses, las lombrices habrán transformado los residuos orgánicos en humus. El humus se puede recolectar cuando el sustrato se ve oscuro, seco, y tiene una textura suave. En esta etapa, las lombrices pueden ser separadas del humus a través de técnicas de extracción manual o utilizando pantallas para tamizar el material. Este humus es un fertilizante natural muy eficaz que se puede utilizar en jardines, cultivos agrícolas o huertos urbanos.</p>
+            </li>
+            
+            <li><strong>Reproducción y mantenimiento del ciclo:</strong>
+                <p>Las lombrices rojas californianas tienen una alta tasa de reproducción, por lo que el proceso puede mantenerse de manera continua. Durante la recolección del humus, es posible dejar algunas lombrices en el sustrato para que continúen con el proceso de descomposición. A medida que las lombrices se reproducen, el ciclo de lombricultivo se reinicia, permitiendo que el proceso continúe de manera sostenible.</p>
+            </li>
+        <a href="index.html">Volver al Inicio</a>
+    </div>
+
+    <script>
+
+        const menuToggle = document.getElementById('menuToggle');
+        const sideMenu = document.getElementById('sideMenu');
+
+        menuToggle.addEventListener('click', () => {
+            if (sideMenu.style.left === '0px') {
+                sideMenu.style.left = '-250px';
+            } else {
+                sideMenu.style.left = '0px';
+            }
+        });
+    </script>
+
+        <footer class="footer">
+        Instituto Técnico Ambiental 2024
+    </footer>
+
+
+</body>
+</html>
